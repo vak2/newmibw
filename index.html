@@ -1,48 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Mines Hack</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Обновите бота</title>
+
+  <!-- Open Graph / Preview -->
+  <meta property="og:title" content="Обновите бота до последней версии" />
+  <meta property="og:description" content="Пожалуйста, обновите бота до последней версии, чтобы продолжить работу." />
+  <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=Update+Bot" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+    :root {
+      --primary: #ffffff;
+      --accent-start: #4facfe;
+      --accent-end: #00f2fe;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      color: var(--primary);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, var(--accent-start), var(--accent-end));
+      text-align: center;
+      padding: 1.5rem;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 8vw, 3.5rem);
+      font-weight: 800;
+      text-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    }
+  </style>
 </head>
 <body>
-    <div class="full-width-line"></div>
-    <div class="logo-container">
-            <img src="images/1win.svg" alt="Logo" id="logo-1win">
-        </a>
-    </div>
-    <div class="language-selector">
-        <img id="language-icon" src="flags/ru.png" alt="Language">
-        <div id="language-dropdown" class="hidden">
-            <img src="flags/ru.png" alt="Русский" class="language-option" data-lang="ru">
-            <img src="flags/en.png" alt="English" class="language-option" data-lang="en">
-            <img src="flags/hi.png" alt="Hindi" class="language-option" data-lang="hi">
-            <img src="flags/pt.png" alt="Português" class="language-option" data-lang="pt">
-            <img src="flags/es.png" alt="Español" class="language-option" data-lang="es">
-            <img src="flags/tr.png" alt="Türkçe" class="language-option" data-lang="tr">
-        </div>
-    </div>
-    <div id="gradient-background"></div>
-    <div class="container">
-        <div id="status"></div>
-        <div id="signal-accuracy"></div>
-        <div id="game-field"></div>
-        <div class="arrow-container">
-            <button class="arrow-button" id="left-arrow">
-                <img src="images/minus.png">
-            </button>
-        <button id="flip"></button>
-        <button class="arrow-button" id="right-arrow">
-            <img src="images/plus.png">
-        </button>
-        </div>
-        <div id="progress-bar-container">
-            <div id="progress-bar"></div>
-        </div>
-        <div id="countdown"></div>
-    </div>
-
-    <script src="script.js"></script>
+  <h1>ОБНОВИТЕ БОТА ДО ПОСЛЕДНЕЙ ВЕРСИИ</h1>
 </body>
 </html>
